@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "restorechurch",
+    "slug": "restorechurch",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/twitter.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#1ba1f2"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.restorechurch"
+    },
+    "sdkVersion": "38.0.0",
+    "android": {
+      "package": "com.restorechurch"
+    }
+  }
+}
