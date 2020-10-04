@@ -1,0 +1,13 @@
+rootProject.name = 'restorechurch'
+
+// apply from: '../node_modules/react-native-unimodules/gradle.groovy'
+// includeUnimodulesProjects()
+
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle");
+applyNativeModulesSettingsGradle(settings)
+
+include ':react-native-fbsdk'
+project(':react-native-fbsdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fbsdk/android')
+   
+
+include ':app'

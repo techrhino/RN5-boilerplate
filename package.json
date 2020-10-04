@@ -1,0 +1,43 @@
+{
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "lint": "yarn eslint --ext '.js,.ts' ./src"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/toolbar-android": "0.1.0-rc.2",
+    "@react-navigation/bottom-tabs": "^5.8.0",
+    "@react-navigation/drawer": "^5.3.4",
+    "@react-navigation/material-bottom-tabs": "^5.2.16",
+    "@react-navigation/native": "^5.1.3",
+    "@react-navigation/stack": "^5.2.7",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "react": "~16.11.0",
+    "react-dom": "16.11.0",
+    "react-native": "~0.62.2",
+    "react-native-appearance": "~0.3.3",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-paper": "^4.1.0",
+    "react-native-reanimated": "~1.9.0",
+    "react-native-safe-area-context": "~3.0.7",
+    "react-native-screens": "~2.9.0",
+    "react-native-tab-view": "^2.13.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "~0.11.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@callstack/eslint-config": "^9.1.0",
+    "babel-jest": "~25.2.6",
+    "babel-preset-expo": "^8.2.3",
+    "eslint": "^6.8.0",
+    "jest": "~25.2.6",
+    "react-test-renderer": "~16.11.0"
+  },
+  "private": true,
+  "name": "restorechurch",
+  "version": "1.0.0"
+}
