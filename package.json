@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "@callstack/eslint-config": "^9.1.0",
+    "@callstack/eslint-config": "^10.1.0",
     "babel-jest": "~25.2.6",
     "babel-preset-expo": "^8.2.3",
     "eslint": "^6.8.0",
