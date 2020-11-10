@@ -26,7 +26,7 @@
     "react-native-screens": "~2.13.0",
     "react-native-tab-view": "^2.15.2",
     "react-native-vector-icons": "^7.1.0",
-    "react-native-web": "~0.11.7"
+    "react-native-web": "~0.14.8"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
