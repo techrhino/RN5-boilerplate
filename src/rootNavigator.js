@@ -27,7 +27,7 @@ const TabLabel = ({ focused, color, name }) => {
  
 function TabOptions(label, icon){
   var options = {
-    tabBarLabel: label,//(props) => <TabLabel {...props} name={label} />,
+    tabBarLabel: label,
     tabBarIcon: ({ }) => (
       <MatIcon name={icon} color={'#fff'} size={26} />
     ),
@@ -36,47 +36,18 @@ function TabOptions(label, icon){
 }
 
 function Tabs() {
-  const theme = useTheme();
-
   return (
     <Tab.Navigator
       backBehavior='history'
       initialRouteName="About"
       activeColor="white"
       inactiveColor="white"
-      //barStyle={{ backgroundColor: theme.colors.primary }}
-      // tabBarOptions={{ 
-      //   activeBackgroundColor: theme.colors.primary, 
-      //   inactiveBackgroundColor: theme.colors.primary,
-      //   activeTintColor: '#fff',
-      //   inactiveTintColor: '#fff',
-      //  }}
     >
-      <Tab.Screen
-        name="About"
-        component={About}
-        options={TabOptions('About Us', 'home')} 
-        />
-      <Tab.Screen
-        name="Contact"
-        component={About}
-        options={TabOptions('Contact', 'info')} 
-        />
-        <Tab.Screen
-        name="Videos"
-        component={About}
-        options={TabOptions('Videos', 'info')} 
-        />
-        <Tab.Screen
-        name="Youth"
-        component={About}
-        options={TabOptions('Youth', 'info')} 
-        />
-        <Tab.Screen
-        name="News"
-        component={About}
-        options={TabOptions('News', 'info')} 
-        />
+      <Tab.Screen name="About" component={About} options={TabOptions('About Us', 'home')} />
+      <Tab.Screen name="Contact" component={About} options={TabOptions('Contact', 'info')} />
+      <Tab.Screen name="Videos" component={About} options={TabOptions('Videos', 'info')} />
+      <Tab.Screen name="Youth" component={About} options={TabOptions('Youth', 'info')} />
+      <Tab.Screen name="News" component={About} options={TabOptions('News', 'info')} />
     </Tab.Navigator>
   )
 }
