@@ -34,7 +34,7 @@
     "@callstack/eslint-config": "^10.2.0",
     "babel-jest": "~26.6.3",
     "babel-preset-expo": "^8.3.0",
-    "eslint": "^7.23.0",
+    "eslint": "^7.24.0",
     "jest": "~26.6.3",
     "react-test-renderer": "~16.13.0"
   },
