@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: react-native-paper
+    versions:
+    - 4.8.0
+  - dependency-name: "@react-navigation/native"
+    versions:
+    - 5.9.3
+  - dependency-name: react-native-gesture-handler
+    versions:
+    - 1.10.2
+  - dependency-name: react-native-web
+    versions:
+    - 0.14.12
