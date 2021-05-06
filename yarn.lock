@@ -1037,14 +1037,7 @@
     pirates "^4.0.0"
     source-map-support "^0.5.16"
 
-"@babel/runtime@^7.0.0":
-  version "7.8.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.8.3.tgz#0811944f73a6c926bb2ad35e918dcc1bfab279f1"
-  integrity sha512-fVHx1rzEmwB130VTkLnxR+HmxcTjGzH12LYQcFFoBwakMd3aOMD4OsRN7tGG/UOYE2ektgFrS8uACAoRk1CY0w==
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.11.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.11.2":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
@@ -6699,10 +6692,10 @@ react-native-web@~0.14.13:
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.4"
 
-react-native@~0.62.2:
-  version "0.62.2"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.2.tgz#d831e11a3178705449142df19a70ac2ca16bad10"
-  integrity sha512-gADZZ3jcm2WFTjh8CCBCbl5wRSbdxqZGd+8UpNwLQFgrkp/uHorwAhLNqcd4+fHmADgPBltNL0uR1Vhv47zcOw==
+react-native@~0.62.3:
+  version "0.62.3"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.3.tgz#9a2e96af3dedd0723c8657831eec4ed3c30f3299"
+  integrity sha512-b2/hDHDlO5Of2Zn1K5ZgvzOoUrvMEvlYU4miS9rcEBp5jK/9cRQn81HZ7NBmf4gzigGl8CxbSx1l10GUj1k8XQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@react-native-community/cli" "^4.5.1"
@@ -6826,12 +6819,7 @@ regenerate@^1.4.0:
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
   integrity sha512-1G6jJVDWrt0rK99kBjvEtziZNCICAuvIPkSiUFIQxVP06RCVpq3dmDo2oi6ABpYaDYaTRr67BEhL8r1wgEZZKg==
 
-regenerator-runtime@^0.13.2:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
-  integrity sha512-naKIZz2GQ8JWh///G7L3X6LaQUAMp2lvb1rvwwsURe/VXwD6VMfr+/1NuNw3ag8v2kY1aQ/go5SNn79O9JU7yw==
-
-regenerator-runtime@^0.13.4:
+regenerator-runtime@^0.13.2, regenerator-runtime@^0.13.4:
   version "0.13.7"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
   integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
