@@ -33,7 +33,7 @@
     "@babel/core": "^7.14.6",
     "@callstack/eslint-config": "^11.0.0",
     "babel-jest": "~27.0.6",
-    "babel-preset-expo": "^8.3.0",
+    "babel-preset-expo": "^8.4.0",
     "eslint": "^7.29.0",
     "jest": "~27.0.6",
     "react-test-renderer": "~16.13.0"
