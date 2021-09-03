@@ -1545,10 +1545,10 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/masked-view/-/masked-view-0.1.11.tgz#2f4c6e10bee0786abff4604e39a37ded6f3980ce"
   integrity sha512-rQfMIGSR/1r/SyN87+VD8xHHzDYeHaJq6elOSCAD+0iLagXkSI2pfA0LmSXP21uw5i3em7GkkRjfJ8wpqWXZNw==
 
-"@react-native-community/toolbar-android@0.1.0-rc.2":
-  version "0.1.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@react-native-community/toolbar-android/-/toolbar-android-0.1.0-rc.2.tgz#86cae655836afacc52d4063062cc59837d1a8640"
-  integrity sha512-UCblqsitOcoYxVc6QzcaqCKogeRnePPMw7cbGvW5GI/GXIwQel8Kge9d910W3MUPUzw3pFzhIZVug6U3W067Pg==
+"@react-native-community/toolbar-android@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@react-native-community/toolbar-android/-/toolbar-android-0.2.0.tgz#0d4417a6f4b863a450bfabc12512d2518611ba71"
+  integrity sha512-yTRdm/SNrBG8ayzuZYqUcya2l27AG/VyUvleSCoJ3+eJuMUzNME+8AEs7MMimLEQ4W6FB94XXB/fJVSQ6QHL6g==
 
 "@react-native/assets@1.0.0":
   version "1.0.0"
