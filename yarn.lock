@@ -1587,17 +1587,17 @@
     color "^3.1.3"
     react-native-iphone-x-helper "^1.3.0"
 
-"@react-navigation/elements@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@react-navigation/elements/-/elements-1.1.0.tgz#483155ccf5a8f18d015db283bed34cc2255e2e9e"
-  integrity sha512-jZncciZPGuoP6B6f+Wpf6MYSSYy86B2HJDbFTCtT5xZV0w6V9GgCeqvSTOEAxifZrmKl8uDxsr0GrIxgQE8NxA==
+"@react-navigation/elements@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@react-navigation/elements/-/elements-1.2.0.tgz#e0069fd2d34f53a39594833d1bf249e71988c60d"
+  integrity sha512-0eraS7Gj39CD26aAyUyZdyoCe1XBEa9CbHoFHCv3N5/+FSfX+HYdPzkOi3KPT3nEdNx7GD4rTWN2y0qZ7yUiaA==
 
-"@react-navigation/material-bottom-tabs@^6.0.5":
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/@react-navigation/material-bottom-tabs/-/material-bottom-tabs-6.0.5.tgz#8c213bf5f2e3b32755f017faeb6b04aaea33eb8d"
-  integrity sha512-u1vEH4Sxs3vofaS08jNcY9305OAsRQQPVZMfa2dsBTAaxEhH/nDotATmKngZoXiMm269bc/8LUUkHKL5/v9xvQ==
+"@react-navigation/material-bottom-tabs@^6.0.8":
+  version "6.0.8"
+  resolved "https://registry.yarnpkg.com/@react-navigation/material-bottom-tabs/-/material-bottom-tabs-6.0.8.tgz#fb0eb79007ab80d65c1acb71faba11cf9d963097"
+  integrity sha512-Y4AKfJdFrkuseapoM9A+ea745B1a0e+Xg98wPHEYAxiBxTK73frvAgkeHCij2aqiCE9od02fTU+RshwK7jkapg==
   dependencies:
-    "@react-navigation/elements" "^1.1.0"
+    "@react-navigation/elements" "^1.2.0"
 
 "@react-navigation/native@^5.9.8":
   version "5.9.8"
